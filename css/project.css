@@ -1,0 +1,558 @@
+	*{
+			box-sizing: border-box;
+		}
+		body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+		body, html {
+ 			height: 100%;
+ 			margin: 0;
+		}
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+		.menu {
+			overflow: hidden;
+			background-color: white;
+			position: fixed;
+			top: 0;
+			height: 50px;
+			box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+			line-height: 3.3;
+			z-index: 1;
+		}
+		.logo{
+			letter-spacing: 5px;			
+			font-weight: bold;
+		}
+		.menu-right{
+			float: right;
+		}
+		 a{	
+			text-align: center;
+			color: black;
+			text-decoration: none;
+			padding: 30px 10px;
+		}	
+		 a:hover{	
+			background-color: lightgrey;
+		}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+		
+		.image{			    
+			background-image: url("../img/backim.jpg");
+			background-size: cover;
+			height: 700px;
+			text-align: left;
+		}
+		.image>p{
+			padding-left: 50px;
+		}
+		.txt1{
+			padding-top: 150px;
+			font-size: 63px;
+			font-weight: normal;	
+			color: white;
+		}
+		.txt2{
+			padding-bottom: 10px;
+			font-size: 18px;
+			font-weight: normal;	
+			color: white;			
+		}	
+		.inlink{
+			opacity: 0.7;
+			background-color:  lightgrey;
+			padding: 20px 40px;
+			box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+		}
+		.inlink:hover{
+			background-color: white;
+		}	
+ 	
+		.icons{
+			padding-top: 190px;
+			padding-left: 50px;
+			color: white;			
+			font-size: 23px;			
+		}
+
+		.ico{
+			transition-duration: 0.5s;
+			transition-property: color;
+			transition-timing-function: linear;
+		}
+		.ico:hover:nth-child(1){
+			color: 	#3b5998;
+		}
+		.ico:hover:nth-child(2){
+			color: 	#cd486b
+		}
+		.ico:hover:nth-child(3){
+			color: 	yellow
+		}
+		.ico:hover:nth-child(4){
+			color: 	#c8232c;
+		}
+		.ico:hover:nth-child(5){
+			color: 	#00aced;
+		}
+		.ico:hover:nth-child(6){
+			color: 	#0077B5;
+		}
+/*///////////////////////////////////////////////////////////////////////////////////*/
+
+		.section{			
+			text-align: center;	
+			height: 650px;
+		}
+		.sec{
+			float: left;
+			padding: 20px;
+			line-height: 1.9;
+		}
+		.section p{
+			font-size: 15px;
+		}
+		.ab {
+			font-size: 63px;
+			padding: 10px;
+		}
+		
+		.up{
+			font-size: 24px !important;
+		}
+
+		h3{
+			font-weight: normal;
+			padding-top: 150px;
+			font-size: 24px;
+		}	
+
+/*///////////////////////////////////////////////////////////////////////////////////*/		
+		.promo{									
+			height: 600px;
+			background-color: whitesmoke;
+		}
+		.promo > .col-6>h3{
+			padding:130px 0 10px 30px;
+		}
+		.promo >.col-6>p{
+			line-height: 1.6;
+			padding:3px 0 10px 30px;
+		}
+		.promo >.col-6 > img{
+			padding-top: 130px;
+			width: 100%;
+			padding-right: 35px;
+			float: left;		
+		}
+		.plink{
+			padding: 10px 20px;
+			background-color: black;
+			color: white;
+		}
+		.plink:hover{
+			background-color: silver;
+			color: black;
+		}
+/*///////////////////////////////////////////////////////////////////////////////////*/
+		.persons{
+			text-align: center;
+			height: 900px;
+			padding:10px 15px 0 15px;
+		}
+
+		[class*="per-"] {
+			text-align: center;			
+			box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+			height: 550px;	 
+			}
+		.team-image > img{
+			width: 100%;
+			padding: 15px;
+			opacity: 0.8
+		}
+		.team-image > img:hover{
+			opacity: 1.0
+		}
+		.perinfo>h3,p{
+			line-height: 1.6;
+			width: 100%;
+			padding: 0;
+		}
+		.perinfo{			
+			width: 100% !important;		
+		}
+
+		.perbutton{
+			text-align: center;
+			color: black;
+			background-color: whitesmoke;
+			text-decoration: none;
+			padding: 15px 80px;
+			border: none;
+		}
+		.perbutton:hover{
+			background-color: lightgrey;
+		}
+		.peropacity{
+			opacity: 0.5;
+		}
+/*///////////////////////////////////////////////////////////////////////////////////*/
+
+
+		.statistics{
+			background-color: gray;
+			height: 100px;
+			text-align: center;
+			color: white;
+			font-size: 15px;
+		}
+		.case{
+			font-size: 40px !important;
+			line-height: 1.7;					
+		}
+		.case{
+			margin: 25px;
+		}
+
+/*///////////////////////////////////////////////////////////////////////////////////*/
+		.works{
+			height: 800px;
+			padding: 20px;
+		}
+		.works>*{
+			text-align: center;
+			
+		}
+		.works>p{
+			padding-bottom: 35px;
+		}
+		.ski>img{
+			width: 100%;
+			padding: 8px;
+		}
+		.ski>img:hover{
+			opacity: 0.5;
+		}
+/*///////////////////////////////////////////////////////////////////////////////////*/
+
+		.percentage{
+			background-color: whitesmoke;
+			height: 400px;
+		}
+		.percentage > .col-6>h3{
+			padding:20px 0 10px 30px;
+		}
+		.percentage >.col-6>p{
+			line-height: 1.6;
+			padding:3px 0 10px 30px;
+		}
+		.per > p:nth-child(1){
+			padding:30px 0 7px 0px !important;
+		}
+		.per > p:nth-child(3){
+			padding:0px 0 7px 0px !important;
+		}
+		.per > p:nth-child(5){
+			padding:0px 0 7px 0px !important;
+		}
+
+		.percent {
+		  width: 100%;
+		  background-color: 	#A9A9A9;
+		}
+		.percent-1 {
+		  width: 90%;
+		  height: 25px;
+		  background-color: #696969;
+		  text-align: center;
+		  line-height: 25px;
+		  color: white;
+		}
+		.percent-2 {
+		  width: 85%;
+		  height: 25px;
+		  background-color: #696969;
+       	  text-align: center;
+		  line-height: 25px;
+		  color: white;
+		}
+		.percent-3 {
+		  width: 75%;
+		  height: 25px;
+		  background-color: #696969;
+		  text-align: center;
+		  line-height: 25px;
+		  color: white;
+		}
+
+/*///////////////////////////////////////////////////////////////////////////////////*/
+		.pricing{
+			background-color: #696969;
+			height: 1100px;
+			text-align: center;
+			padding: 15px;
+
+		}
+		.pricing>p{
+			font-size: 18px;
+			color: white;
+		}
+		.pricing>h3{
+			font-size: 28px;
+			color: white;
+		}
+		.basic{
+			transition-duration: .2s;
+			transition-property: all;
+			transition-timing-function: linear;
+			padding-top: 20px;
+			line-height: 2.2;
+			text-align: center;
+		}
+		.basic:hover{
+			padding: 5px;
+			
+		}
+		.pro{
+			transition-duration: .2s;
+			transition-property: all;
+			transition-timing-function: linear;
+			line-height: 2.5;
+			text-align: center;
+		}
+		.pro:hover{
+			padding: 5px;			
+		}
+		.prem{
+			transition-duration: .2s;
+			transition-property: all;
+			transition-timing-function: linear;
+			padding-top: 20px;
+			line-height: 2.2;
+			text-align: center;
+		}
+		.prem:hover{
+			padding: 5px;
+			
+		}
+		li{
+			list-style: none;
+			border-top: 1px solid lightgray;
+			background-color: white;
+			padding: 10px;
+
+		}
+		ul{
+			padding: 8px;
+		}
+		ul > h2{
+			font-weight: normal;
+			font-size: 35px;
+		}
+		li>span{
+			opacity: 0.5;
+		}
+		.basblack{
+			border-top-color: black;
+			font-size: 27px;
+			padding: 30px;
+			background-color: black;
+			color:white;
+		}
+		.pred{
+			border-top-color: #ff4d4d;
+			font-size: 27px;
+			padding: 40px;
+			background-color:  #ff4d4d;
+			color:white;
+		}
+		.preblack{
+			border-top-color: black;
+			font-size: 27px;
+			padding: 30px;
+			background-color:  black;
+			color:white;
+		}
+		.lib{
+			background-color:  lightgray;
+			padding: 30px;
+		}
+		.lib>button{
+			padding: 20px 30px;
+			background-color: black;
+			color: white;
+		}
+		.lib>button:hover{
+			background-color: silver;
+			color: black;	
+		}
+
+
+
+
+/*///////////////////////////////////////////////////////////////////////////////////*/
+		.contact {
+			background-color: whitesmoke;
+			height: 1650px;
+			text-align: center;
+			padding: 50px 15px 50px 15px;
+			
+		}
+		.contact>h3 {
+			padding-top: 50px;		
+		}
+		.adress{
+			text-align: left;
+		}
+		.adress>p>i{
+			font-size: 40px;
+			padding: 10px;
+		}
+		form>p>input{
+			padding: 15px;
+			margin-top:  10px;
+			margin-bottom:  10px;
+		}
+		.send{
+			padding: 10px 20px !important;
+			background-color: black;
+			color: white;
+			height: 40px;
+		}
+		form>p>button:hover{
+			background-color: silver;
+			color: black;
+		}
+
+/*///////////////////////////////////////////////////////////////////////////////////*/
+
+
+		.end{
+			color: white;
+			background-color: black;
+			height: 200px;
+			text-align: center;
+			padding-top: 30px;
+		}
+		.end a{	
+			color: black;
+			padding: 10px;
+			text-decoration: none;
+			background-color: white;
+			transition-duration: 0.2s;
+			transition-timing-function: linear;
+		}	
+		.end a:hover{	
+			background-color: green;
+		}
+		.logos{
+			margin-top: 20px;
+			font-size: 25px;
+		}
+	/*///////////////////////////////////////////////////////////////////////////////////*/
+
+		[class*="col-"] {
+			  float: left;		  
+			}
+
+		.col-1 {width: 8.33%;}
+		.col-2 {width: 16.66%;}
+		.col-3 {width: 25%;}
+		.col-4 {width: 33.33%;}
+		.col-5 {width: 41.66%;}
+		.col-6 {width: 50%;}
+		.col-7 {width: 58.33%;}
+		.col-8 {width: 66.66%;}
+		.col-9 {width: 75%;}
+		.col-10 {width: 83.33%;}
+		.col-11 {width: 91.66%;}
+		.col-12 {width: 100%;}
+
+
+
+
+		@media screen and (max-width:992px) {
+  			.col-3{
+  				width: 50%;
+  				}
+  			.image{
+  				height: 800px;
+  			}
+  			.section{
+  				height: 1000px;
+  			}
+  			.promo{
+  				height: 500px;
+  			}
+
+  			.persons{
+  				height: 1500px;
+  			}
+  			[class*="per-"] {
+			height: 600px;	 
+			 
+			}
+  			.statistics{
+  				height: 220px;
+  			}
+  			.works{
+  				height: 1600px;
+  			}
+  			.percantage{
+  				height: 500px;
+  			}
+  			.contact{
+  				height: 1400px;
+  			}
+  			
+   		}
+  		@media screen and (max-width:596px) {
+  			.col-6{
+  				width: 100%;
+  			}
+  			.col-3{
+  				width: 100%;
+  				}
+  			.col-4{
+  				width: 100%;
+  				}
+  			.image{
+  				height: 1050px;
+  			}
+  			.section{
+  				height: 1500px;
+  			}
+  			.promo{
+  				height: 700px;
+  			}
+  			.col-6 > img{
+  				padding-top:50px; 
+  				padding-left: 30px;
+  			}
+
+  			.persons{
+  				height: 2900px;
+  			}
+  			[class*="per-"] {
+  				height: 615px;	
+			}
+  			.statistics{
+  				height: 350px;
+  			}
+  			.works{
+  				height: 3400px;
+  			}
+  			.percentage{		
+			    height: 800px;
+		    }
+		    .per{
+		    	padding-right: 20px;
+		    	padding-left: 30px;
+		    }
+		    .pricing{			
+			    height: 2400px;}
+  			.contact{
+  				height: 1250px;
+  			}
+  		}
